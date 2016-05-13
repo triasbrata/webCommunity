@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;	
+}
+body{
+	background-color:#dedede;
+}
+.kontainer{
+	margin: 0 auto;
+	display:block;
+	width: 1000px;
+	padding-top:20px;
+	min-height: 500px ;
+}
+.kolom{
+	display:block;
+	float:left;
+	background-color :#fff;
+	padding:5px 10px 20px;
+	border:1px solid #ddd;
+	border-radius:3px;
+	min-height: 300px;
+}
+.kolom.kiri{
+	width:628px;
+	margin-right:50px
+}
+.kolom.kanan{
+	width:278px;
+}
+.page-header{
+	margin:0 auto 20px;
+	font-size:34px;
+	text-align: center;
+}
+article header{
+	padding-top:15px;
+	padding-bottom:10px;
+	font-size:20px;
+	border-bottom:1px dashed #ddd;
+	margin-bottom:10px;
+}
+article .content{
+	padding: 10px 0 15px;
+	border-bottom:1px dashed #ddd;
+	margin-bottom:10px;
+	text-align:justify;
+}
+article .content.desc{
+	border-bottom:1px solid #ddd;
+}
+.comment-container{
+	padding: 10px 0;
+}
+.comment{
+	border-bottom:1px dotted #ddd;
+}
+.comment .ava,
+.comment .messages{
+	display: inline-block;
+	min-height: 60px;
+}
+.comment .ava{
+	width:100px;
+}
+.comment .ava img{
+	width:64px;
+	height:64px;
+	display: block;
+	border-radius:100%;
+	border:3px solid #efefef;
+	margin:0 auto 10px;
+}
+.comment .ava .date{
+	font-size:11px;
+	color:#999;
+	display: block;
+	text-align:center
+}
+.comment .messages{
+	width:500px;
+	text-align:left;
+	
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Data Diri Siswa</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	body {
+		background-image: url('gympo.png');
+		background-repeat: no-repeat;
+		background-size: 200px 200px;
+		background-color: #ff4;
+	}
+	legend{
+		font-family: 'Slabo 27px';
+		font-size: 12px;
+		font-weight: bold;
+	}
+	fieldset{
+		border-top:10px solid #f00;
+	}
+	img{
+		/*position: relative;*/
+		left: 40%;
+		top:40px;
+		height: 100px;
+		width: 100px;
+	}
+	.kotak{
+				/*semua*/
+				/* ab  kk */
+				/*a kk b*/
+				/*a k b k*/
+		padding: 10px 20px 50px 40px;
+		margin:20px 10px 30px 40px;
+		width: 800px;
+		height: 200px;
+		background-color: #fff;
+	}
+</style>
+<body>
+	<form action="">
+		<fieldset>
+			<legend align="center">Data Pribadi</legend>
+			<label for="nama"> Nama Siswa</label>
+			<input name="nama" id="nama" type="text" />
+			<br>=
+			<label for="tela"> Tempat Lahir</label>
+			<input name="tempat_lahir" id="tela" type="text" />
+			<br>
+			<label for="tala"> Tanggal Lahir</label>
+			<input name="tanggal_lahir" id="tala" type="text" />
+			<br>
+			<label for="jk"> Jenis Kelamin</label>
+			<select name="jenis_kelamin" id="jk">
+				<option value="m">Laki-Laki</option>
+				<option value="w">Perempuan</option>
+			</select>
+			<br>
+			<label>Kendaraan Dimiliki :</label>
+			<label><input checked type="checkbox" name="kendaraan[]" value="mobil" /> Mobil</label>
+			<label><input type="checkbox" name="kendaraan[]" value="motor" /> Motor</label>
+			<label><input type="checkbox" name="kendaraan[]" value="speda" /> Speda</label>
+			<br>
+			<label for="alamat">Alamat</label>
+			<textarea name="alamat" id="alamat" cols="50" rows="4"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Keahlian</legend>
+			<label for="skill">Skill Yang Dimiliki</label>
+			<select name="skill[]" multiple id="skill">
+				<optgroup label="Akademik">
+					<option value="coding">Coding</option>	
+					<option value="desain">Desain</option>
+				</optgroup>
+				<optgroup label="Non-Akademik">
+					<option value="menggambar">Menggambar</option>	
+				</optgroup>
+			</select>
+			<button type="submit">Kirim</button>
+		</fieldset>
+	</form>
+	<img src="frog.png">
+	<img src="gambar-gerak.gif">
+	<div class="kotak">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</body>
+</html>
